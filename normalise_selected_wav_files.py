@@ -20,6 +20,7 @@ def main():
         Downsampling not properly addressed - adding dither would be an improvement.
         Introduces a miniscule amount of digital noise. When one file is normalised approx. 20 times the noise becomes
         noticeable if placed under close comparison with the original.
+        When bit_depth set to 3 (24bit) viewing file properties shows it as 32 bit.
     """
     bit_depth: int = 2 # In bytes, 1 byte == 8 bits. Defaults to 2 (16bit).
     sample_rate: int = 48000 # Sets sample rate.
