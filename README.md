@@ -24,6 +24,6 @@ This tool was designed initially to be used in conjunction with AudioKinetic's W
 The primary use case is as a quick way to normalise/renormalise select audio files or your entire project without breaking any file's link to Wwise.
 This means no hassle re-linking and not having to redo any implementation. Just run the tool and it's done.
 
-In order to accomplish this the tool does not natively rename any files in the process.
+In order to accomplish this the tool does not natively allow renaming any files in the process.
 
 In the future I plan on adding a GUI as well as several other features to make it more useful in other contexts such as library creation.
